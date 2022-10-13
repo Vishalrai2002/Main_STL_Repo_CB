@@ -29,7 +29,6 @@ int main()
     cout<<"upper bound is "<<up<<endl;
 
 // If you want to find out the occurecne of that elment than yu subract the ( upper_bound - lower_bound )
-
 cout<<"Occurence of that element is "<<up-lb<<endl;
 
     return 0;
