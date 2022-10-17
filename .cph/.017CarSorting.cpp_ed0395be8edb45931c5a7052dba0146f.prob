@@ -1,0 +1,1 @@
+{"name":"Local: 017CarSorting","url":"c:\\Users\\vishal\\Downloads\\Main_STL_Repo_CB\\017CarSorting.cpp","tests":[{"id":1665984929303,"input":"4\nAudi 1 2\nJaguar 2 2\nRangeRover 1 0\nFortuner 0 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\vishal\\Downloads\\Main_STL_Repo_CB\\017CarSorting.cpp","group":"local","local":true}
