@@ -32,6 +32,7 @@ bool comparator(car a, car b){
    int db=b.dist();
    if(da==db){
     return a.car_name.length()<b.car_name.length();
+
    }
    return da<db;
 }
@@ -49,6 +50,7 @@ int main()
         v.push_back(temp);
     }
     sort(v.begin(),v.end(),comparator); // sort according to our comparator
+    
     // Print 
     for(auto c:v){
         cout<<"Car: "<<c.car_name<<"->  "<<"distance is: "<<c.dist()<<" -> "<<c.x<<", "<<c.y<<endl;
