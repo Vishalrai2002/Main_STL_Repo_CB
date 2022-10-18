@@ -34,10 +34,25 @@ int main()
 
     l2.pop_front(); // Remove the first element of the list
 
-    cout<<l2.front()<<endl; // Print the first element of the list
+    // cout<<l2.front()<<endl; // Print the first element of the list
 
     l2.push_front("kiwi"); // push at front
     l2.pop_back(); // remove the last 
+
+
+    // for(auto it=l2.begin();it!=l2.end();it++){
+    //     cout<<(*it)<<" ";
+    // }
+    // cout<<endl;
+    l2.push_back("orange");
+    l2.push_back("lemon");
+
+    // If you have to remove a particular value in the list
+    l2.remove("kiwi");
+    string toremove="orange";
+    l2.remove(toremove); // remove all the occurend of the input you wnt to rmove
+
+    
 
     // iterate over the list using for each loop
     for(auto it:l2){
@@ -45,10 +60,14 @@ int main()
     }
     cout<<endl;
 
-    for(auto it=l2.begin();it!=l2.end();it++){
-        cout<<(*it)<<" ";
+    // If you insert a element at a particular index
+    auto it=l2.begin();
+    it++;
+    it++;
+    l2.insert(it,"fruiteJuice");
+    for(auto it:l2){
+        cout<<it<<" ";
     }
     cout<<endl;
-
     return 0;
 }
