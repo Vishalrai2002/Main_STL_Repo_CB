@@ -2,6 +2,9 @@
 #include<stack>
 using namespace std;
 /*
+
+----LIFO----
+
 push
 pop
 top
