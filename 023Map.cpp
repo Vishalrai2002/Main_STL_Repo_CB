@@ -52,6 +52,8 @@ int main()
     mp["Litchi"]=60;
     mp["Grapes"]=100;
 
+    // Iteration over the maps
+
     for(auto it=mp.begin();it!=mp.end();it++){
         // cout<<it->first<<" "<<it->second<<endl;
         cout<<(*it).first<<" "<<(*it).second<<endl;
